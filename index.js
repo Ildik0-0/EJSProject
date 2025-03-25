@@ -5,11 +5,11 @@ import bodyParser from 'body-parser';
 const app = express();
 const port = 3000;
 
-app.use(express.static('public'));
+app.use(express.static("plublic"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// create a post ijoij
+// create a post 
 let posts = [];
 
 
