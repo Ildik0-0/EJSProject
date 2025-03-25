@@ -9,7 +9,7 @@ app.use(express.static('public'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// create a post
+// create a post ijoij
 let posts = [];
 
 
